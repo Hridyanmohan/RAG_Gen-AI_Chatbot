@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-pinecone
+langchain-groq
+langchain-huggingface
+python-dotenv
+pypdf
+pinecone
