@@ -62,3 +62,9 @@ Follow these steps to launch the LitIntel Engine research assistant platform ins
 
     # Install required pipeline libraries
     pip install -r requirements.txt
+
+## Workflow
+https://github.com/Hridyanmohan/RAG_Gen-AI_Chatbot/blob/main/workflow.png
+
+## Result
+https://github.com/Hridyanmohan/RAG_Gen-AI_Chatbot/blob/main/litintel2.png
