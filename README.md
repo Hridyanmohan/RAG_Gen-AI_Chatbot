@@ -2,6 +2,8 @@
 
 An advanced, zero-hallucination Retrieval-Augmented Generation (RAG) platform built to securely extract factual insights from a specialized literature corpus without data bleeding.
 
+This project introduces LitIntel Engine, a smart research assistant designed to read, understand, and answer questions about technical research papers without making things up (hallucinating). Standard AI models often give incorrect or invented answers when asked about highly specific data found inside specialized PDFs. To fix this, we built a system that locks the AI inside a private library of your own documents. The system reads the papers, converts the text into mathematical code, and stores it securely in a cloud database. When you ask a question, the system instantly finds the exact pages you need and uses a high-speed AI model to give you a precise, factual answer.
+
 ##  Features
 * **Zero-Hallucination Guardrails:** Locked down using Llama 3.3 70B via Groq API at a strict temperature ($\tau = 0.0$).
 * **Smart Lifecycle Boot Gate:** Pings Pinecone index statistics on startup to safely bypass redundant document reprocessing and cloud upload cycles.
